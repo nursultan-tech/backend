@@ -1,0 +1,41 @@
+----------------------SPRING FRAMEWORK-------------------
+-------------------Computers--------------------------
+
+GET information about all computers
+https://computer-midterm.herokuapp.com/api/computers
+
+GET special computer by id
+https://computer-midterm.herokuapp.com/api/computers/{id}
+
+POST
+https://computer-midterm.herokuapp.com/api/computers/create
+in body enter computer information like the following example without id
+{
+     "brand": "Apple",
+    
+     "model": "Macbook Pro 15'",
+    
+     "description": "core i5, 16gb RAM, 256gb SSD",
+    
+     "year": 2018,
+    
+     "price": 1799
+}
+
+PUT
+https://computer-midterm.herokuapp.com/api/computers/update/{id}
+in body enter computer information like the following example without id
+{
+     "brand": "Apple",
+    
+     "model": "Macbook Pro 15'",
+    
+     "description": "core i5, 16gb RAM, 256gb SSD",
+    
+     "year": 2018,
+    
+     "price": 2099
+}
+
+DELETE
+https://computer-midterm.herokuapp.com/api/computers/delete/{id}
